@@ -198,9 +198,9 @@ alias kgpo='kubectl get pods -o wide'
 #
 # If you don't want to fork, comment the 3 lines below if you don't want to always pull
 # my latest changes, otherwise your changes will be overriden by my updates
-echo
-echo "Pulling latest changes, please wait..."
-(cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
+#echo
+#echo "Pulling latest changes, please wait..."
+#(cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
 # Every time I log into a host I want to pull my github repos, but not cd to that dir
 # So running the command above in a subshell
 #
